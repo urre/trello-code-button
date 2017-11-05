@@ -13,7 +13,7 @@ This extension adds a new shiny button for adding code in a Trello comment.
 
 ## Install
 
-### [Add to Chrome](https://chrome.google.com/webstore/detail/lopmiphdibkigebkpicjacdcgcdianhd)
+### [Add to Chrome](https://chrome.google.com/webstore/detail/lopmiphdibkigebkpicjacdcgcdianhd/publish-accepted?hl=sv)
 
 ## Install manually
 
