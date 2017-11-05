@@ -1,7 +1,7 @@
 const addCodeButton = () => {
 
-	var button = document.createElement('a')
-	var span = document.createElement('span')
+	const button = document.createElement('a')
+	const span = document.createElement('span')
 	const commmentInputBox = document.querySelector('.js-new-comment-input')
 	const commmentInput = document.querySelector('.js-new-comment')
 	const addCommmentButton = document.querySelector('.js-add-comment')
