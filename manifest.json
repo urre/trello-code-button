@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Trello Codebutton",
+  "description": "Codebuttons to Trello cards because not all users know their way around backticks",
+  "version": "0.1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    "src/css/trello-codebutton.css"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.trello.com/*"
+      ],
+      "js": [
+        "src/js/trello-codebutton.js"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "*://*.trello.com/*"
+      ],
+      "css": [
+        "src/css/trello-codebutton.css"
+      ]
+    }
+  ]
+}
